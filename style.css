@@ -1,0 +1,870 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Madimi+One&family=Protest+Strike&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.navbar
+{
+    background-color: #101415;
+}
+.nav-item a
+{
+    color: #fff;
+}
+
+.navbar-toggler{
+    border: none;
+    background-color: #fff;
+}
+
+
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #101415;
+}
+
+.login-btn
+{
+    text-decoration: none;
+    background: #e50914;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+.contact-btn1
+{
+    text-decoration: none;
+    border: 3px solid #f5c518;
+    padding: 0.5em;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* HERO SECTION */
+
+.HEROSECTION
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    padding: 80px 0px;
+    border-bottom: 8px solid #222;
+    background-color: #101415;
+}
+
+@font-face {
+    font-family: 'Bouncy';
+    src: url(Bouncy-PERSONAL_USE_ONLY.otf);
+}
+
+
+.HEROSECTION h1
+{
+    margin: 3em 0 0 0;
+    font-size: 3em;
+    font-weight: 700;
+    color: #f5c518;
+    font-family: 'Bouncy';
+}
+
+.HEROSECTION h4 
+{
+    font-size: 3em;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.HEROSECTION p 
+{
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0 0 10px 0;
+}
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form input
+{
+    border: none;
+    background: #fff;
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 40em;
+    outline: none;
+    color: #222;
+}
+
+.form input::placeholder
+{
+    color: #e50914;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Madimi One", sans-serif;
+}
+
+.get-btn {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 15px;
+    background-color: #e50914;
+    border-radius: 3px;
+    color: #fff;
+    border: 0;
+    font-family: "Madimi One", sans-serif;
+}
+
+.Enjoy_section
+{
+    border-bottom: 8px solid #222;
+    padding: 2em;
+    background-color: #101415;
+}
+
+.Enjoy_section h4
+{
+    margin-left: 15%;
+    color: #e50914;
+    font-size: 70px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.Enjoy_section p
+{
+    margin-left: 15%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+    text-wrap: wrap;
+}
+
+
+/* WATCH_SECTION */
+
+.watch_section
+{
+ padding: 2em;
+ border-bottom: 8px solid #222;
+ background-color: #101415;
+}
+
+
+
+.watch_section h4
+{
+    margin-left: 60%;
+    color: #f5c518;
+    font-size: 70px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.watch_section p
+{
+    margin-left: 52%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+    text-wrap: wrap;
+}
+
+
+
+/* CREATE_SECTION */
+
+.Create_section
+{
+    border-bottom: 8px solid #222;
+    padding: 2em;
+    background-color: #101415;
+}
+
+.Create_section h4
+{
+    margin-left: 15%;
+    color: #f5c518;
+    font-size: 70px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.Create_section p
+{
+    margin-left: 15%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+    text-wrap: wrap;
+}
+
+.Downloading_wraper
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px solid #222;
+    padding: 2em;
+    background-color: #101415;
+}
+
+
+.text_section h4
+{
+    color: #e50914;
+    font-size: 70px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.text_section p
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic light',  sans-serif;
+    text-wrap: wrap;
+}
+
+.video_section video
+{
+    border: 1px solid #f5c518;
+    border-radius: 10px;
+}
+
+.FAQ h1
+{
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 0 0;
+}
+
+.MovieBanner_section
+{
+  display: flex;
+  justify-content: space-around;
+  background: url('img/home-background.png') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;  
+  border-bottom: 8px solid #222;
+}
+
+
+
+.text-section h4
+{
+    text-wrap: wrap;
+     font-size: 60px;
+     color: #e50914;
+     font-family: "Chela One", system-ui;
+     font-weight: 400;
+}
+
+.txt 
+{
+    margin: 40px 0 0 0;
+}
+
+@font-face {
+    font-family: 'Heroes';
+    src: url(HighVoltage_Rough.ttf);
+}
+
+
+.txt  h4
+{
+    font-family: 'Heroes';
+}
+
+
+.text-section p
+{
+     font-size: 20px;
+     font-family: "Madimi One", sans-serif;
+     font-weight: 700;
+}
+
+
+
+.video2_section video
+{
+    border: 2px solid #e50914;
+    border-radius: 10px;
+    margin: 4em;
+}
+
+.movie-category a
+{
+   padding: 30px;
+   text-decoration: none;
+   color: #fff;
+   border: 0.5px solid #fff;
+   border-radius: 50px;
+   padding: 5px 15px 5px 15px;
+   margin: 5px;
+}
+
+.movie-category
+{
+    margin: 2em 0 0 0;
+}
+.moviecategory2
+{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    gap: 30px;
+}
+
+.moviecategory2 a
+{
+  text-decoration: none; 
+  color: #fff;
+  border: 0.5px solid #fff;
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+}
+
+.moviecategory2 a:hover
+{
+    opacity: 0.2;
+}
+/* HERO SECTION */
+
+.HEROSECTION1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    padding: 80px 0px;
+    background-color: #101415;
+}
+
+.HEROSECTION1 h2
+{
+    font-family: "Protest Strike", sans-serif;
+}
+
+
+/* movie listing */
+.movie-listing
+{
+    background-color: #101415;
+    border-bottom: 8px solid #222;
+}
+
+.movie-listing h4
+{
+  margin-left: 5em;
+  margin-top: 1.5em;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+.card-wrap
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin: 20px;
+}
+
+#back
+{
+    background-color: #101415;
+}
+
+.IMDb
+{
+    background-color: #f5c518;
+    border-radius: 5px;
+    color: #101415;
+    font-weight: 900;
+    text-align: center;
+    padding: 1px 1px;
+    font-family: "Chela One", system-ui;
+    font-size: 15px;
+}
+
+
+
+
+.plus-section:hover
+{
+    background-color: #f5c518;
+}
+
+
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    color: #101415;
+  }
+
+
+div.polaroid:hover {
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  div.container p{
+    color: #101415;
+    font-weight: 700;
+  }
+
+
+  #rating
+  {
+    color: #222;
+    font-weight: 700;
+
+  }
+
+  .topRated
+  {
+    background-color: #101415;
+  }
+
+  .topRated h4
+{
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+   font-family: "Chela One", system-ui;
+   font-weight: 700;
+   padding: 15px 0 0 0;
+   color: #f5c518;
+}
+ 
+
+.topRated p
+
+{
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    padding: 1em;
+    font-weight: 700;
+    font-family: "Protest Strike", sans-serif;
+}
+.topRated
+
+{
+    background: url('img/banner.jpeg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;  
+
+}
+
+
+.toprated_moviesection
+{
+    background-color: #101415;
+    border-top: 5px solid #f5c518;
+}
+
+
+
+
+
+
+/* 
+.chela-one-regular {
+  font-family: "Chela One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+
+
+.Footer_Wrapper
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 4px solid #f5c518;
+    padding: 2em;
+}
+
+.Footer_Wrapper h4 
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.First_footerSection section > img
+{
+    width: 25px;
+    cursor: pointer;
+}
+
+.Second_footerSection p 
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+@media screen and (max-width: 992px)
+{
+    .HEROSECTION
+    {
+        display: block;
+        text-wrap: wrap;
+    }
+    .HEROSECTION h1
+    {
+        margin: 3em 0 0 0;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 10px 0 10px;
+    }
+    
+    .HEROSECTION h4 
+    {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 0 10px 0;
+    }
+    
+    .HEROSECTION p 
+    {
+        font-size: 10px;
+        font-weight: 500;
+        padding: 0 0 10px 0;
+    }
+    .HEROSECTION1 h2
+    {
+        margin-top: 100px;
+    }
+
+    .HEROSECTION1 p
+    {
+        margin-top: 50px;
+    }
+
+    .form
+    {
+        display: block;
+    }
+
+    
+    .form input
+    {
+        width: 90%;
+        padding: 12px;
+        margin: 20px 0 0 0;
+    }
+
+    .get-btn {
+       width: 90%;
+       padding: 10px;
+       margin: 20px 0 0 20px;
+       display: flex;
+       justify-content: center;
+    }
+    
+    .Enjoy_section h4
+    {
+        margin-left: 1%;
+        color: #e50914;
+        font-size: 30px;
+
+    }
+    
+    .Enjoy_section p
+    {
+        margin-left: 1%;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+
+    .watch_section h4
+    {
+        margin-left: 1%;
+        color: #f5c518;
+        font-size: 30px;
+
+    }
+    
+    .watch_section p
+    {
+        margin-left: 1%;
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .Create_section h4
+    {
+        margin-left: 1%;
+        color: #f5c518;
+        font-size: 30px;
+
+    }
+    
+    .Create_section p
+    {
+        margin-left: 1%;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    
+
+    video
+    {
+        width: 90%;
+    }
+
+    .Downloading_wraper
+    {
+        display: block;
+    }
+
+    .text_section h4
+    {
+        color: #e50914;
+        font-size: 30px;
+    }
+
+    .text_section p
+    {
+        padding: 1em;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .txt 
+{
+    margin: 0 0 0 0;
+}
+
+.txt  h4
+{
+   font-size: 50px;
+   padding: 5px 0 0 60px;
+}
+
+    
+.FAQ h1
+{
+    color: #fff;
+    font-size: 30px;
+    padding: 45px 0 0 0;
+}
+
+.video-section video
+{
+    border: 2px solid #e50914;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.MovieBanner_section
+{
+  display: block;
+  height: 60vh;  
+}
+
+
+
+.text-section h2 
+{
+    text-wrap: wrap;
+    margin: 0 0 0 0;
+    padding: 0.1em;
+    font-weight: 400;
+    font-size: 30px;
+    color: #e50914;
+}
+
+
+
+
+.text-section p
+{
+     font-size: 15px;
+}
+
+
+
+.movie-category a
+{
+   text-decoration: none;
+   color: #fff;
+   border: 0.5px solid #fff;
+   border-radius: 50px;
+   padding: 5px 15px 5px 15px;
+}
+
+.moviecategory2
+{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    gap: 10px;
+}
+
+.video2_section video
+{
+
+    margin: 2em 0 0 22px;
+}
+
+
+
+
+.movie-listing h4
+{
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.card-wrap
+{
+    display: block;
+}
+
+
+
+
+
+
+
+div.polaroid {
+    width: 80%;
+    margin-left: 40px;
+  }
+  
+
+  .topRated
+
+  {
+      background: url('img/banner.jpeg') no-repeat center;
+      background-size: cover;
+      width: 100%;
+      height: 70vh;  
+  
+  }
+  
+
+  .topRated h4
+  {
+     display: flex;
+     justify-content: center;
+     font-size: 50px;
+     font-family: "Chela One", system-ui;
+     font-weight: 700;
+     padding: 15px 0 0 0;
+     color: #f5c518;
+     text-wrap: wrap;
+  }
+   
+  
+  .topRated p
+  
+  {
+      display: flex;
+      justify-content: center;
+      text-wrap: wrap;
+      padding: 1em;
+      font-weight: 700;
+      font-family: "Protest Strike", sans-serif;
+      font-size: 25px;
+  }
+
+  .topRated img
+  {
+    width: 50%;
+  }
+
+  .Footer_Wrapper
+  {
+    display: block;
+    padding: 20px;
+  }
+
+  .Footer_Wrapper h4 
+  {
+    margin-left: 80px;
+    padding: 20px;
+    color: #e50914;
+  }
+  .Second_footerSection p 
+  {
+    margin-left: 100px;
+  }
+}
+
+.developer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.coonnect-with_me
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coonnect-with_me img
+{
+cursor: pointer;
+}
+
+
